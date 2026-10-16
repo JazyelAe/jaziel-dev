@@ -1,0 +1,167 @@
+[
+  {
+    "id": "talenthub-mexico",
+    "title": "TalentHub México",
+    "subtitle": "Observatorio de empleos TI en México",
+    "slug": "talenthub-mexico",
+    "shortDescription": "Plataforma de empleos TI en producción en la que he colaborado en el desarrollo de interfaces con HTML, CSS y JavaScript, integración con un backend en Python/Django, apoyo en la integración con PostgreSQL y Supabase, y documentación técnica.",
+    "description": "Plataforma de empleos TI en producción en la que he colaborado en el desarrollo de interfaces con HTML, CSS y JavaScript, integración con un backend en Python/Django, apoyo en la integración con PostgreSQL y Supabase, y documentación técnica.",
+    "role": "Frontend",
+    "category": "frontend",
+    "categories": [
+      "frontend",
+      "web-apps"
+    ],
+    "categoryLabel": "Frontend · Aplicación Web",
+    "statusBadge": "En producción",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Supabase"
+    ],
+    "coverImage": "assets/images/projects/talenthub.webp",
+    "coverCaption": "Composición técnica abstracta — Arquitectura Frontend & Integración Django",
+    "isAbstractCover": true,
+    "gallery": [],
+    "repositoryUrl": "https://github.com/Mshkp/talenthub-mexico",
+    "liveUrl": "https://talent-hub.me",
+    "featured": true,
+    "published": true,
+    "sortOrder": 1,
+    "context": "Proyecto colaborativo enfocado en ofrecer un observatorio y plataforma de empleos del sector de Tecnologías de la Información en México, desplegado en entorno de producción.",
+    "objective": "Construir y mantener interfaces web claras, responsivas y conectadas con el backend en Python/Django y servicios de datos en PostgreSQL y Supabase.",
+    "problem": "Necesidad de presentar vacantes e información del mercado laboral TI en México mediante una interfaz estructurada, accesible y correctamente integrada con la lógica de servidor y base de datos.",
+    "solution": "Desarrollo de vistas e interfaces de usuario utilizando HTML5, CSS3 y JavaScript moderno, integradas con plantillas y endpoints de Django, junto con documentación técnica para estandarizar la configuración de entorno y despliegue.",
+    "contribution": [
+      "Desarrollo de interfaces de usuario con HTML, CSS y JavaScript integradas con el backend en Python/Django.",
+      "Apoyo en la integración y conexión de base de datos con PostgreSQL y Supabase.",
+      "Elaboración y mantenimiento de documentación técnica del proyecto (configuración de entorno y despliegue)."
+    ],
+    "features": [
+      "Interfaces web adaptables para consulta y exploración de vacantes TI.",
+      "Integración directa entre componentes frontend y vistas servidas con Python/Django.",
+      "Conexión estructurada con almacenamiento relacional en PostgreSQL y servicios de Supabase.",
+      "Documentación de flujo de configuración y despliegue para el equipo colaborador."
+    ]
+  },
+  {
+    "id": "consultas-medicas",
+    "title": "Consultas Médicas",
+    "subtitle": "Sistema de gestión de citas médicas",
+    "slug": "consultas-medicas",
+    "shortDescription": "Participación en pruebas funcionales de módulos como calendario de citas, recuperación de contraseña, edición de perfil y actualización de diagnóstico. Identificación de errores de interfaz, validación de formularios y comprobación de funcionalidades.",
+    "description": "Participación en pruebas funcionales de módulos como calendario de citas, recuperación de contraseña, edición de perfil y actualización de diagnóstico. Identificación de errores de interfaz, validación de formularios y comprobación de funcionalidades.",
+    "role": "QA Tester",
+    "category": "qa",
+    "categories": [
+      "qa",
+      "web-apps"
+    ],
+    "categoryLabel": "QA / Testing · Aplicación Web",
+    "statusBadge": "Verificación QA",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "PHP",
+      "QA Funcional",
+      "Validación de Formularios"
+    ],
+    "coverImage": "assets/images/projects/consultas-medicas.webp",
+    "coverCaption": "Composición técnica abstracta — Matriz de Verificación y Pruebas Funcionales",
+    "isAbstractCover": true,
+    "gallery": [],
+    "repositoryUrl": "https://github.com/Mshkp/Consultas-Medicas",
+    "liveUrl": "",
+    "featured": true,
+    "published": true,
+    "sortOrder": 2,
+    "context": "Sistema web colaborativo orientado a la administración y seguimiento de citas médicas, perfiles de usuario y actualización de diagnósticos clínicos.",
+    "objective": "Asegurar la calidad funcional de los módulos principales antes de cada entrega mediante pruebas manuales estructuradas, validación de formularios y detección temprana de incidencias.",
+    "problem": "Los flujos críticos de agenda médica, recuperación de acceso y actualización de expediente requerían verificación sistemática para prevenir errores de validación y fallos en controles de interfaz.",
+    "solution": "Ejecución de planes de prueba funcional sobre cada módulo clave, registro detallado de defectos visuales o lógicos y verificación de correcciones en conjunto con el equipo de desarrollo.",
+    "contribution": [
+      "Ejecución de pruebas funcionales sobre los módulos de calendario de citas, recuperación de contraseña, edición de perfil y actualización de diagnóstico.",
+      "Identificación y reporte estructurado de errores de interfaz, validación de campos en formularios y comprobación de botones y acciones.",
+      "Colaboración estrecha con el equipo de desarrollo para verificar correcciones antes de cada entrega."
+    ],
+    "features": [
+      "Validación integral del módulo de calendario y programación de citas médicas.",
+      "Verificación del flujo de recuperación de contraseña y controles de acceso.",
+      "Comprobación de formularios de edición de perfil y actualización de diagnóstico.",
+      "Revisión de consistencia visual e interactiva en HTML, CSS, JavaScript y PHP."
+    ]
+  },
+  {
+    "id": "aplicacion-web-django-bootstrap",
+    "title": "Aplicación web con Django y Bootstrap",
+    "subtitle": "Interfaces web responsivas y formularios dinámicos",
+    "slug": "aplicacion-web-django-bootstrap",
+    "shortDescription": "Desarrollo de interfaces web responsivas y formularios dinámicos.",
+    "description": "Desarrollo de interfaces web responsivas y formularios dinámicos.",
+    "role": "Frontend",
+    "category": "frontend",
+    "categories": [
+      "frontend",
+      "web-apps"
+    ],
+    "categoryLabel": "Frontend · Aplicación Web",
+    "statusBadge": "Borrador",
+    "technologies": [
+      "Django",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "coverImage": "assets/images/projects/abstract-placeholder.webp",
+    "coverCaption": "Composición tipográfica de reserva",
+    "isAbstractCover": true,
+    "gallery": [],
+    "repositoryUrl": "",
+    "liveUrl": "",
+    "featured": false,
+    "published": false,
+    "sortOrder": 3,
+    "context": "",
+    "objective": "",
+    "problem": "",
+    "solution": "",
+    "contribution": [],
+    "features": []
+  },
+  {
+    "id": "sistema-gestion-usuarios",
+    "title": "Sistema de gestión de usuarios",
+    "subtitle": "Administración y consulta de información",
+    "slug": "sistema-gestion-usuarios",
+    "shortDescription": "Herramienta para administración y consulta de información de usuarios.",
+    "description": "Herramienta para administración y consulta de información de usuarios.",
+    "role": "Desarrollador",
+    "category": "web-apps",
+    "categories": [
+      "web-apps"
+    ],
+    "categoryLabel": "Aplicación Web",
+    "statusBadge": "Borrador",
+    "technologies": [],
+    "coverImage": "assets/images/projects/abstract-placeholder.webp",
+    "coverCaption": "Composición tipográfica de reserva",
+    "isAbstractCover": true,
+    "gallery": [],
+    "repositoryUrl": "",
+    "liveUrl": "",
+    "featured": false,
+    "published": false,
+    "sortOrder": 4,
+    "context": "",
+    "objective": "",
+    "problem": "",
+    "solution": "",
+    "contribution": [],
+    "features": []
+  }
+]

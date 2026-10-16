@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalle de Proyecto — JAZIEL.DEV</title>
+  <meta name="description" content="Ficha técnica detallada de proyecto en el portafolio profesional de Jahir Jaziel Serrano Arana (JAZIEL.DEV)." />
+  <meta name="theme-color" content="#080B10" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/variables.css" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/layout.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+  <link rel="stylesheet" href="./css/animations.css" />
+  <link rel="stylesheet" href="./css/pages.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+<body>
+  <div class="ambient-stage" aria-hidden="true">
+    <div class="architectural-grid-overlay"></div>
+    <canvas id="neural-grid-canvas"></canvas>
+    <div class="cursor-spotlight"></div>
+  </div>
+
+  <div class="site-wrapper">
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="./index.html" class="brand-logo">
+          <span class="brand-logo__mark" aria-hidden="true">JZ</span>
+          <span>JAZIEL<span class="brand-logo__dot">.</span><span class="brand-logo__dev">DEV</span></span>
+        </a>
+        <div class="nav-actions">
+          <a href="./index.html#proyectos" class="btn btn--secondary">← Volver al catálogo</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="detail-hero">
+      <div class="container">
+        <a href="./index.html#proyectos" class="detail-back-link">← REGRESAR A PROYECTOS</a>
+        <div id="standalone-project-detail" data-standalone-project-detail="true">
+          <p class="mono-label">Cargando especificaciones del proyecto...</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer" style="margin-top:auto;">
+      <div class="container footer-inner">
+        <span class="mono-label">JAZIEL.DEV // DOCUMENTACIÓN DE PROYECTO</span>
+        <p class="mono-label">&copy; <span id="current-year">2026</span> Jahir Jaziel Serrano Arana</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

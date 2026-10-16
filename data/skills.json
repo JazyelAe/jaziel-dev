@@ -1,0 +1,164 @@
+{
+  "groups": [
+    {
+      "id": "frontend",
+      "code": "SYS.01",
+      "title": "Frontend",
+      "subtitle": "Interfaces web, maquetación semántica e interactividad",
+      "accent": "mint",
+      "icon": "layout",
+      "items": [
+        {
+          "name": "HTML5",
+          "tag": "Semántica & Accesibilidad",
+          "icon": "file-code"
+        },
+        {
+          "name": "CSS3",
+          "tag": "Grid, Flexbox, Variables & Animaciones",
+          "icon": "palette"
+        },
+        {
+          "name": "JavaScript",
+          "tag": "ES Modules, DOM & Fetch API",
+          "icon": "braces"
+        },
+        {
+          "name": "Bootstrap",
+          "tag": "Componentes & Sistema de Retícula",
+          "icon": "columns"
+        },
+        {
+          "name": "Diseño responsivo",
+          "tag": "Arquitectura Mobile-First",
+          "icon": "monitor-smartphone"
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "code": "SYS.02",
+      "title": "Backend y programación",
+      "subtitle": "Lógica de servidor, integración de vistas y estructuras de datos",
+      "accent": "blue",
+      "icon": "server",
+      "items": [
+        {
+          "name": "Python",
+          "tag": "Desarrollo Backend & Scripting",
+          "icon": "terminal"
+        },
+        {
+          "name": "Django",
+          "tag": "Framework Web & Integración Fullstack",
+          "icon": "layers"
+        },
+        {
+          "name": "PHP",
+          "tag": "Procesamiento del Lado del Servidor",
+          "icon": "cpu"
+        },
+        {
+          "name": "C#",
+          "tag": "Fundamentos de Lenguaje Tipado",
+          "icon": "code"
+        },
+        {
+          "name": "Programación orientada a objetos",
+          "tag": "Modularidad & Abstracción (POO)",
+          "icon": "boxes"
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "code": "SYS.03",
+      "title": "Bases de datos",
+      "subtitle": "Modelado relacional, consultas y servicios en la nube",
+      "accent": "mint",
+      "icon": "database",
+      "items": [
+        {
+          "name": "MySQL",
+          "tag": "Base de Datos Relacional",
+          "icon": "database"
+        },
+        {
+          "name": "SQLite",
+          "tag": "Persistencia Ligera e Integrada",
+          "icon": "hard-drive"
+        },
+        {
+          "name": "PostgreSQL",
+          "tag": "Integración en Producción",
+          "icon": "server-cog"
+        },
+        {
+          "name": "Supabase",
+          "tag": "Backend-as-a-Service & Postgres",
+          "icon": "cloud"
+        },
+        {
+          "name": "Conocimientos básicos de MongoDB",
+          "tag": "Base de Datos NoSQL Documental",
+          "icon": "file-json"
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "code": "SYS.04",
+      "title": "QA",
+      "subtitle": "Aseguramiento de calidad y validación funcional de software",
+      "accent": "blue",
+      "icon": "check-circle-2",
+      "items": [
+        {
+          "name": "Pruebas funcionales manuales",
+          "tag": "Verificación de Módulos Críticos",
+          "icon": "clipboard-check"
+        },
+        {
+          "name": "Validación de formularios",
+          "tag": "Reglas de Entrada & Estados de Error",
+          "icon": "file-check-2"
+        },
+        {
+          "name": "Comprobación de flujos de usuario",
+          "tag": "Recorridos End-to-End de Interfaz",
+          "icon": "git-commit"
+        },
+        {
+          "name": "Detección y reporte de errores",
+          "tag": "Documentación Clara de Incidencias",
+          "icon": "AlertTriangle"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "code": "SYS.05",
+      "title": "Herramientas",
+      "subtitle": "Control de versiones, entorno de código y colaboración",
+      "accent": "mint",
+      "icon": "wrench",
+      "items": [
+        {
+          "name": "Git",
+          "tag": "Control de Versiones Distribuido",
+          "icon": "git-Graph"
+        },
+        {
+          "name": "GitHub",
+          "tag": "Repositorios, Colaboración & GitHub Pages",
+          "icon": "github"
+        },
+        {
+          "name": "Visual Studio Code",
+          "tag": "Entorno de Desarrollo Principal",
+          "icon": "terminal-square"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "brand": "JAZIEL.DEV",
+  "name": "Jahir Jaziel Serrano Arana",
+  "shortName": "Jahir Jaziel",
+  "role": "Desarrollador Frontend Jr. & QA Tester",
+  "heroHeadline": "Diseño interfaces. Desarrollo soluciones. Verifico cada detalle.",
+  "heroSubtext": "Desarrollo web y aseguramiento de calidad enfocados en experiencias digitales funcionales, claras y bien construidas.",
+  "location": "Puebla, México",
+  "university": "Universidad Tecnológica de Puebla",
+  "degree": "Ingeniería en Tecnologías de la Información, área Desarrollo de Software Multiplataforma",
+  "availability": {
+    "enabled": true,
+    "text": "Estudiante de Ingeniería en TI · UTP Puebla"
+  },
+  "profileImage": "assets/images/jaziel-profile.webp",
+  "profileImageAlt": "Retrato profesional de Jahir Jaziel Serrano Arana",
+  "cvPath": "assets/cv/cv-jahir-jaziel.pdf",
+  "cvFileName": "CV_Jahir_Jaziel_Serrano_Arana.pdf",
+  "contact": {
+    "email": "jahirarana06@gmail.com",
+    "github": "https://github.com/JazyelAe",
+    "githubHandle": "@JazyelAe",
+    "linkedin": "https://www.linkedin.com/in/jahirjazielserrano",
+    "linkedinDisplay": "linkedin.com/in/jahirjazielserrano"
+  },
+  "about": {
+    "lead": "Soy estudiante de Ingeniería en Tecnologías de la Información, en el área de Desarrollo de Software Multiplataforma. Me interesa desarrollar interfaces web funcionales, colaborar en proyectos de software y contribuir a la calidad de las aplicaciones mediante pruebas y validación de funcionalidades.",
+    "pillars": [
+      {
+        "id": "frontend-dev",
+        "code": "01 // UI",
+        "title": "Desarrollo frontend",
+        "description": "Construcción de interfaces web limpias, semánticas y mantenibles con HTML5, CSS3 y JavaScript moderno.",
+        "icon": "code-2"
+      },
+      {
+        "id": "responsive-design",
+        "code": "02 // RWD",
+        "title": "Diseño responsivo",
+        "description": "Adaptación fluida de retículas y componentes para móviles, tablets, laptops y monitores de escritorio.",
+        "icon": "smartphone"
+      },
+      {
+        "id": "functional-testing",
+        "code": "03 // QA",
+        "title": "Pruebas funcionales",
+        "description": "Verificación sistemática de módulos, flujos de usuario, controles interactivos y validación de formularios.",
+        "icon": "shield-check"
+      },
+      {
+        "id": "bug-reporting",
+        "code": "04 // BUG",
+        "title": "Identificación y documentación de errores",
+        "description": "Detección de incidencias de interfaz o comportamiento y registro claro para agilizar su resolución.",
+        "icon": "bug"
+      },
+      {
+        "id": "team-collab",
+        "code": "05 // GIT",
+        "title": "Trabajo colaborativo",
+        "description": "Integración con equipos de desarrollo mediante control de versiones en Git/GitHub y validación previa a entregas.",
+        "icon": "git-branch"
+      },
+      {
+        "id": "continuous-improvement",
+        "code": "06 // EVO",
+        "title": "Mejora continua",
+        "description": "Aprendizaje constante de buenas prácticas de arquitectura web, accesibilidad y aseguramiento de calidad.",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Universidad Tecnológica de Puebla",
+      "program": "Ingeniería en Tecnologías de la Información, área Desarrollo de Software Multiplataforma",
+      "status": "En curso",
+      "period": "2025 – Actualidad",
+      "highlight": true
+    },
+    {
+      "institution": "Universidad Tecnológica de Puebla",
+      "program": "TSU en Tecnologías de la Información, área Desarrollo de Software Multiplataforma",
+      "status": "Concluido",
+      "period": "2023 – 2025",
+      "highlight": false
+    },
+    {
+      "institution": "CONALEP Puebla 1",
+      "program": "Técnico en Mecatrónica",
+      "status": "Concluido",
+      "period": "2019 – 2022",
+      "highlight": false
+    }
+  ],
+  "firebase": {
+    "contactEndpoint": ""
+  }
+}

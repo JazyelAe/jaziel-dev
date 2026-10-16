@@ -1,0 +1,20 @@
+# Dependencias de Node (Firebase Cloud Functions)
+node_modules/
+firebase/functions/node_modules/
+
+# Variables de entorno y credenciales privadas (NUNCA subir al repositorio)
+.env
+.env.*
+!.env.example
+firebase/functions/.env
+firebase/functions/.env.*
+!firebase/functions/.env.example
+service-account*.json
+firebase-debug.log
+.firebase/
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

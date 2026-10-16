@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Ajusta el nombre del repositorio al publicar en GitHub Pages o dominio propio:
+Sitemap: https://jazyelae.github.io/jaziel-dev/sitemap.xml

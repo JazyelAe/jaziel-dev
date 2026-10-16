@@ -1,0 +1,90 @@
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.88);
+  }
+}
+
+@keyframes slowOrbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scanlinePass {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(400%);
+  }
+}
+
+/* Entrada inicial breve y cinematográfica (no bloquea lectura ni navegación) */
+.cinematic-intro-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 999;
+  background: linear-gradient(90deg, transparent, var(--accent-mint), var(--accent-blue), transparent);
+  animation: introSweep 900ms var(--ease-out-expo) forwards;
+  pointer-events: none;
+}
+
+@keyframes introSweep {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  75% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
+
+/* Sistema de revelado progresivo seguro:
+   El contenido permanece 100% legible si JS no se ejecuta.
+   Solo cuando html tiene la clase .js-ready aplicamos la transición de entrada. */
+html.js-ready [data-reveal] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 620ms var(--ease-out-expo), transform 620ms var(--ease-out-expo);
+  will-change: opacity, transform;
+}
+
+html.js-ready [data-reveal].is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Respeto estricto a prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  html.js-ready [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .orbital-ring-svg {
+    animation: none !important;
+  }
+}
